@@ -1,0 +1,22 @@
+{
+  "name": "nodeheroku",
+  "version": "1.0.0",
+  "description": "Node Test App",
+  "main": "app.js",
+  "dependencies": {
+    "good": "^6.1.1",
+    "good-console": "^5.0.0",
+    "handlebars": "^3.0.2",
+    "hapi": "^8.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "author": "Sami Suteria",
+  "license": "ISC"
+}
