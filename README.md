@@ -25,7 +25,7 @@ $ heroku open
 For an existing heroku app:
 
 ```sh
-$ heroku git:remote --app ezra-master
+$ heroku git:remote --app some-name
 $ git push heroku master
 $ heroku open
 ```
