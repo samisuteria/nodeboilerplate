@@ -1,36 +1,27 @@
-# node-js-getting-started
+# Node Boilerplate
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+This is my personal boilerplate code when I want to make a new web app. It uses Node.js with [Hapi 8.4](http://hapijs.com) and [Handlebars](http://handlebarsjs.com). This is ready to deploy to [Heroku](https://www.heroku.com). 
 
-This application support the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
+## Testing Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+$ foreman start web
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+App should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-```
-$ heroku create
+Assuming you've cloned this repo to your local computer.
+
+```sh
+$ heroku create some-name
 $ git push heroku master
 $ heroku open
 ```
 
-## Documentation
+## Live Example
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+This app is currently running as [Ezra-Master](https://ezra-master.herokuapp.com/Ezra)
