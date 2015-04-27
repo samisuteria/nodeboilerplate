@@ -45,10 +45,10 @@ server.route({
 
 server.route({
 	method: 'GET',
-	path: '/{name}',
+	path: '/{name*}',
 	handler: function (request, reply){
 		reply.view('index', {
-			name: request.params.name
+			name: encodeURIComponent(request.params.name).split('%2F')[0]
 		});
 	}
 });
