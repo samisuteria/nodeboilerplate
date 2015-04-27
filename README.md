@@ -1,6 +1,6 @@
 # Node Boilerplate
 
-This is my personal boilerplate code when I want to make a new web app. It uses Node.js with [Hapi 8.4](http://hapijs.com) and [Handlebars](http://handlebarsjs.com). This is ready to deploy to [Heroku](https://www.heroku.com). 
+This is my personal boilerplate code when I want to make a new web app. It uses Node.js with [Hapi 8.4](http://hapijs.com), [Handlebars](http://handlebarsjs.com), and [Bootstrap](http://getbootstrap.com). This is ready to deploy to [Heroku](https://www.heroku.com). 
 
 ## Testing Locally
 
