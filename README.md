@@ -14,10 +14,18 @@ App should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-Assuming you've cloned this repo to your local computer.
+For a new heroku app:
 
 ```sh
 $ heroku create some-name
+$ git push heroku master
+$ heroku open
+```
+
+For an existing heroku app:
+
+```sh
+$ heroku git:remote --app ezra-master
 $ git push heroku master
 $ heroku open
 ```
